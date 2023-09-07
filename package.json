@@ -12,6 +12,7 @@
   "scripts": {
     "start": "pm2 start server.js",
     "stop": "pm2 delete server.js",
-    "monitor": "pm2 monitor server.js"
+    "monitor": "pm2 monitor server.js",
+    "log": "pm2 log"
   }
 }
